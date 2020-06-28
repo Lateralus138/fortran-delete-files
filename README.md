@@ -2,11 +2,19 @@
 
 This is sort of my &#34;Hello World&#34; program&#59; my first ever in the programming language **Fortran**&#46;
 
-## Motivation
+## Index
+
+1. [Motivation](#motivation)
+2. [Tests](#tests)
+3. [Code & Source](#code)
+4. [Files](#files)
+5. [License](#license)
+
+## Motivation <a name="motivation"></a>
 
 I like to learn lots of programming languages and Fortran was next on my list&#46; I don&#39;t really do HW programs as I usually have an idea for what kind of software I want&#44; need&#44; or just want to write something different&#46;
 
-## Tests - Compile and Run
+## Tests - Compile and Run <a name="tests"></a>
 
 This has been compiled and tested on both Windows and Linux&#46;
 
@@ -36,7 +44,9 @@ $ delete *.file # assumming a.file and b.file
  b.file was deleted successfully.
 ```
 
-## Code
+## Code <a name="code"></a>
+
+[Source](./delete.f95)
 
 ```Fortran
 program delete
@@ -65,3 +75,18 @@ program delete
     end if
 end program delete
 ```
+
+## Files <a name="files"></a>
+
+- [Source](./delete.f95)
+- [Compiled - Windows](./delete_windows/delete.exe)
+- [Compiled - Linux](./delete_linux/delete)
+  
+
+## License <a name="license"></a>
+
+[LICENSE](./LICENSE)
+
+>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
